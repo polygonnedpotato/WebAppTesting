@@ -1,0 +1,52 @@
+{
+  "short_name": "WAT",
+  "name": "Web App Testing",
+  "description": "Test your browser",
+  "icons": [
+    {
+      "src": "/res/img/pwa.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/res/img/pwalrg.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#5b76cf",
+  "shortcuts": [
+    {
+      "name": "Small Test",
+      "short_name": "SmT",
+      "description": "Start a quick test.",
+      "url": "/smt.html",
+      "icons": [{ "src": "/res/img/smt.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Full Test",
+      "short_name": "FlT",
+      "description": "Start a full test",
+      "url": "/flt.html",
+      "icons": [{ "src": "/res/img/flt.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Test Web-Page",
+      "short_name": "WpT",
+      "description": "Test Web-Page",
+      "url": "/wpt.html",
+      "icons": [{ "src": "/res/img/wpt.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "elburg.null"
+    }
+  ]
+}

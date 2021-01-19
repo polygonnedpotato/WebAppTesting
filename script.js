@@ -1,3 +1,4 @@
+
 function toasty00() {
     if (!window.Notification) {
         console.log('Browser does not support notifications.');
@@ -26,4 +27,10 @@ function toasty00() {
             });
         }
     }
+}
+function toasty01() {
+  const notification = new Notification("Sample Title", {
+      body: "This is a sample toast notification, sent via JavaScript. The difference between this and the first notification test is that this generates the notification in a different method than the first one.",
+      icon: 'https://WebAppTesting.elburg.repl.co/res/img/information.png'
+  })
 }
