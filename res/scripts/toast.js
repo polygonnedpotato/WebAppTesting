@@ -17,7 +17,7 @@ function toasty00() {
                     // show notification here
                     var notify = new Notification('Sample Title', {
                         body: 'This is a sample toast notification, sent via JavaScript.',
-                        icon: 'https://WebAppTesting.elburg.repl.co/res/img/information.png',
+                        icon: '/res/img/information.png',
                     });
                 } else {
                     console.log('User blocked notifications.');
@@ -31,6 +31,6 @@ function toasty00() {
 function toasty01() {
   const notification = new Notification("Sample Title", {
       body: "This is a sample toast notification, sent via JavaScript. The difference between this and the first notification test is that this generates the notification in a different method than the first one.",
-      icon: 'https://WebAppTesting.elburg.repl.co/res/img/information.png'
+      icon: '/res/img/information.png'
   })
 }
