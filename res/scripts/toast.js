@@ -8,7 +8,7 @@ function toasty00() {
             // show notification here
             var notify = new Notification('Sample Title', {
                 body: 'This is a sample toast notification, sent via JavaScript.',
-                icon: 'https://WebAppTesting.elburg.repl.co/res/img/information.png',
+                icon: '/res/img/information.png',
             });
         } else {
             // request permission from user
