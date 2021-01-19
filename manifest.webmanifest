@@ -12,6 +12,16 @@
       "src": "/res/img/pwalrg.png",
       "type": "image/png",
       "sizes": "144x144"
+    },
+    {
+      "src": "/res/img/pwa192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/res/img/pwa512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/",
