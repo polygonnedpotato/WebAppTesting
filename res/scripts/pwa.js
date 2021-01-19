@@ -1,3 +1,4 @@
+// Progressive Web Application
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
