@@ -1,7 +1,12 @@
 {
-  "short_name": "WAT",
   "name": "Web App Testing",
+  "short_name": "WAT",
   "description": "Test your browser",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#5b76cf",
   "icons": [
     {
       "src": "/res/img/pwa.png",
@@ -24,11 +29,6 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "background_color": "#FFFFFF",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#5b76cf",
   "shortcuts": [
     {
       "name": "Small Test",
