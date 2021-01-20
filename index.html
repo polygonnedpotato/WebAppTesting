@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="theme-color" content="#5b76cf">
+    <meta id="theme-color" name="theme-color" content="#5b76cf">
     <title>Web App Testing Page</title>
     <link rel="icon" href="res/img/favicon.gif" type="image/gif" sizes="16x16">
     <link rel="manifest" href="/manifest.webmanifest">
@@ -14,7 +14,13 @@
     <script src="res/scripts/pwa.js"></script>
     <script src="res/scripts/pwa0.js"></script>
     <script src="res/scripts/toast.js"></script>
-    
+    <script src="res/scripts/setthemecolor.js"></script>
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+    </script>
     This Site is for testing the capabilities of your browser. It is recommended that you bookmark this page so you can open it faster.<br>
     If the favicon appears blank in your browser, then it is apparent that animated favicons are not supported in your browser.<br><br>
 
