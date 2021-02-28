@@ -1,8 +1,9 @@
 # WebAppTesting
-This is a web service ment to test your web browser's capabilities.
+This is a web service meant to test your web browser's capabilities.
 
 # Run the app
-Here are all ways to test:
+
+Here are always to test:
 
 1. Online
 https://webapptesting.elburg.repl.co

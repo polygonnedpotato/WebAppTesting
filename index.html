@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta id="theme-color" name="theme-color" content="#5b76cf">
-    <title>Web App Testing Page</title>
-    <link rel="icon" href="res/img/favicon.gif" type="image/gif" sizes="16x16">
-    <link rel="manifest" href="/webmanifest.json">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta id="theme-color" name="theme-color" content="#5b76cf">
+  <title>Web App Testing Page</title>
+  <link rel="icon" href="res/img/favicon.gif" type="image/gif" sizes="16x16">
+  <link rel="manifest" href="/webmanifest.json">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
     <script src="script.js"></script>
     <script src="res/scripts/pwa.js"></script>
     <script src="res/scripts/pwa0.js"></script>
@@ -30,16 +30,21 @@
     Button Tests<br>
     <button type="button" onclick="alert('This is a test. \nThis should be in new line')">Button Dialog Test 1</button><br>
     <button onclick="toasty00()">Toast Notification Test 1</button><br>
-    <button onclick="toasty01()">Toast Notification Test 2</button><br>
-    <button onclick="sharetest00()" title="This is not supported in all browsers.">ShareSheet Test 1</button><br>
-    <button type="button" onclick="console.log('This is a test')">JS Console Test 1</button><br>
-    <button type="button" onclick="console.warn('sample warning')">JS Console Test 2</button><br>
+    <button onclick="toasty01()">Toast Notification Test 2</button>
+    <br>
+    <button onclick="sharetest00()" title="This is not supported in all browsers.">ShareSheet Test 1</button>
+    <br>
+    <button type="button" onclick="console.log('This is a test')">JS Console Test 1</button>
+    <br>
+    <button type="button" onclick="console.warn('sample warning')">JS Console Test 2</button>
+    <br>
     Video Tests<br>
     <video controls>
       <source src="res/vid/video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video><br>
+      Your browser does not support the video tag.
+    </video>
+    <br>
     Other Tests<br>
-    <input type="color" class="form-control" id="colorpicker" value="#ff0000">
-  </body>
+    <label for="colorpicker"></label><input class="form-control" id="colorpicker" type="color" value="#ff0000">
+</body>
 </html>

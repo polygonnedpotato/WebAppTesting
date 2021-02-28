@@ -1,22 +1,20 @@
 // Used only for webpage specific scripts.
 function youcannotescape() {
-  alert("how bout...\n\n\n\n\nno escape")
-  alert("how bout...\n\n\n\n\nno escape")
-  alert("how bout...\n\n\n\n\nno escape")
-  alert("how bout...\n\n\n\n\nno escape")
-  alert("how bout...\n\n\n\n\nno escape")
-  alert("how bout...\n\n\n\n\nno escape")
-  // toast here
-  notifyMe()
+    alert("how bout...\n\n\n\n\nno escape");
+    alert("how bout...\n\n\n\n\nno escape");
+    alert("how bout...\n\n\n\n\nno escape");
+    alert("how bout...\n\n\n\n\nno escape");
+    alert("how bout...\n\n\n\n\nno escape");
+    alert("how bout...\n\n\n\n\nno escape");
+    // toast here
+    notifyMe()
 }
 function notifyMe() {
-    if (!window.Notification) {
-        console.log('Browser does not support notifications.');
-    } else {
+    if (window.Notification) {
         // check if permission is already granted
         if (Notification.permission === 'granted') {
             // show notification here
-            var notify = new Notification('i told you...', {
+            new Notification('i told you...', {
                 body: "You can\'t escape here",
                 icon: 'res/img/information.png',
             });
@@ -25,7 +23,7 @@ function notifyMe() {
             Notification.requestPermission().then(function (p) {
                 if (p === 'granted') {
                     // show notification here
-                    var notify = new Notification('i told you...', {
+                    new Notification('i told you...', {
                         body: "You can\'t escape here",
                         icon: 'res/img/information.png',
                     });
@@ -36,5 +34,7 @@ function notifyMe() {
                 console.error(err);
             });
         }
+    } else {
+        console.log('Browser does not support notifications.');
     }
 }

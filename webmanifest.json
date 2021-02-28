@@ -52,14 +52,6 @@
       "icons": [{ "src": "/res/img/wpt.png", "sizes": "96x96" }]
     }
   ],
-  "file_handlers": [
-    {
-      "action": "/runjs.html?file=",
-      "accept": {
-        "application/javascript": [ ".js" ],
-      }
-    },
-  ],
   "prefer_related_applications": true,
   "related_applications": [
     {
