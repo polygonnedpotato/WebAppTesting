@@ -4,7 +4,7 @@
   "description": "Test your browser",
   "start_url": "/",
   "background_color": "#FFFFFF",
-  "display": "standalone",
+  "display": "minimal-ui",
   "scope": "/",
   "theme_color": "#5b76cf",
   "icons": [
